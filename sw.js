@@ -1,7 +1,7 @@
-// 学习工作台 Service Worker v3 —— 自动更新，无需随构建修改
+// 学习工作台 Service Worker v4 —— 自动更新，无需随构建修改
 // 页面：网络优先（保证新版本及时生效），离线回退缓存
 // 静态资源：缓存优先，回源后自动写入缓存
-const CACHE_NAME = 'study-workbench-v3'
+const CACHE_NAME = 'study-workbench-v4'
 
 self.addEventListener('install', () => self.skipWaiting())
 
